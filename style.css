@@ -1,1 +1,65 @@
 /* Write some CSS below */
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  color: white;
+  background-color: #1b48e3;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+p {
+  font-family: "Chivo", sans-serif;
+}
+
+.banner {
+  background-image: url("images/background.jpg");
+  padding: 120px 0px;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #eeeeee;
+  margin-bottom: 40px;
+}
+
+.card-white {
+  padding: 24px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card-white img {
+  width: 240px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #404042;
+  padding: 40px 100px;
+  color: white;
+}
+
+.container {
+  width: 900px;
+  margin: 60px auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
